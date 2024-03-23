@@ -8,20 +8,20 @@
     - Éxécute `cd ~/palette-paradise`.
     - Éxécute `git pull`.
 
-2. **Crée les mockups (x fois le nombre de art que tu veux trâiter)**
-    - Drag and drop le mockup `a.png` (situé dans `empty-mockups`) dans le logiciel.
+2. **Crée les mockups avec Gimp (x fois le nombre de art que tu veux trâiter)**
+    - Drag and drop le mockup `a.png` (situé dans `empty-mockups`) dans Gimp.
     - Drag and drop l'art qui se situe dans `raw` dans les calques en bas à droite (assures-toi que l'art est en dessous du mockup). Comme example on va prendre `000.png`.
     - `Clic droit` sur l'art -> `Scale layer` -> Width: 1100 -> `Scale`.
     - Avec l'outil `move tool` déplacer l'art pour qu'elle soit centrée.
     - Clic sur `File` -> `Export as...` -> exporter dans le dossier dans `filled-mockups` qui a le nombre de l'art comme nom (dans notre example: `000`), et appelle le `a.png` (comme le nom du mockup de base).
     - Fait de même pour les autres mockups (de `a.png` à `f.png`), voici les dimensions que tu dois mettre lorsque tu fais `Clic droit` sur l'art importé -> `Scale layer` comme précédemment:
-    `a.png`: Width: 1100
-    `b.png`: Width: 650
-    `c.png`: Width: 1000
-    `d.png`: Width: 800
-    `e.png`: Width: 820
-    `f.png`: Width: 900
-    - Réitère pou chaque art.
+    - `a.png`: Width: 1100
+    - `b.png`: Width: 650
+    - `c.png`: Width: 1000
+    - `d.png`: Width: 800
+    - `e.png`: Width: 820
+    - `f.png`: Width: 900
+    - Réitère pour chaque art.
 
 3. **Applique le watermark**
     - Éxécute ceci: `python3 watermark.py`.
@@ -70,4 +70,4 @@
 
 8. **Note quelque part le numéro du dernier art que tu as traîté, afin de t'y retrouver la fois d'après**
 
-Note: contacte si tu as quelconque questionnement ou problème 🖖🖖
+Note: contacte-moi si tu as quelconque questionnement ou problème 🖖🖖
