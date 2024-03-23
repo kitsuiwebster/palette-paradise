@@ -1,72 +1,44 @@
 # palette-paradise
 
-## To Koni
-
-1. Open a terminal with `Ctrl+Alt+T`.
-2. Run this: `cd ~`.
-3. Run this: `git clone https://github.com/kitsuiwebster/palette-paradise`.
-4. In your home directory, open the folder named `palette-paradise`, inside:
-    - raw: the original paintings you have to put inside mockups
-    - mockups: the mockup you have to use
-    - assets: there is `watermark.png`, the `ratios.png` and the `support.png` inside
-5. Create the mockups and the apply the watermark:
-    - Export a version of each mockup for each raw
-    - Exporit a version with the watermark applied for each raw
-6. Open your browser and go [here](https://drive.google.com/drive/folders/18nrQZKyAkVvntWXsReFR0AjZcIIRd9ZK).
-7. Drag and drop all your exports.
-8. Publish as a draft:
-    - Log-in to [Etsy](https://www.etsy.com)
-    - Navigate to your shop manager
-    - Go on the `Listings` section
-    - Click on `Add a listing`
-    - Select `Digital files`
-    - `I did`
-    - `A finished product`
-    - `Made To Order`
-    - Copy the title from [here](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
-    - Add all mockups of the product
-    - Also add the `watermark.png`, the `ratios.png` and the `support.png`
-    Like this:
-    ![Pictures](./README-ASSETS/pics.png)
-    - The order: 1st, the mockup with largest painting, all other mockups, the ratios, the support and the watermark
-    - Copy the description also from [here](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
-    - Price: 10
-    - Quantity: 100
-    - Category: Digital prints
-    - Choose the 2 colors in function of the painting
-    - Width: 90
-    - Height: 60
-    - Both in centimeters
-    - Orientation: Vertical
-    - Tags: oil, painting, vintage, flower, blooming, art, digital, print, {the_colo_of_the_flower}, nature, old, wall, home
-    - Materials: digital
-    - Click on `Save as draft`
-
-## To Kitsui
-
-Run `index.bash`.
-
-It:
-
-- Runs the `rename_raws.py` script
-- Runs the `crop.py` script
-- Stages, commit and pushes the local repo
-
 ## To Koni, in french
 
-1. Ouvre un terminal avec `Ctrl+Alt+T`.
-2. Exécute ceci : `cd ~`.
-3. Exécute ceci : `git clone https://github.com/kitsuiwebster/palette-paradise`.
-4. Dans ton répertoire personnel, ouvre le dossier nommé `palette-paradise`, à l'intérieur :
-    - raw : les peintures originales que tu dois mettre à l'intérieur des maquettes
-    - mockups : la maquette que tu dois utiliser
-    - assets : il y a `watermark.png`, `ratios.png` et `support.png` à l'intérieur
-5. Crée les maquettes et applique le watermark :
-    - Exporte une version de chaque mockup pour chaque original
-    - Exporte une version avec le watermark appliqué pour chaque original
-6. Ouvre ton navigateur et va [ici](https://drive.google.com/drive/folders/18nrQZKyAkVvntWXsReFR0AjZcIIRd9ZK).
-7. Glisse et dépose toutes tes exportations.
-8. Publie en tant que brouillon :
+1. **Accès au workspace**
+    - Dans ton répertoire personnel, ouvre le dossier nommé `palette-paradise`.
+    - Ouvre un terminal avec `Cmd+Space`.
+    - Éxécute `cd ~/palette-paradise`.
+    - Éxécute `git pull`.
+
+2. **Crée les mockups (x fois le nombre de art que tu veux trâiter)**
+    - Drag and drop le mockup `a.png` (situé dans `empty-mockups`) dans le logiciel.
+    - Drag and drop l'art qui se situe dans `raw` dans les calques en bas à droite (assures-toi que l'art est en dessous du mockup). Comme example on va prendre `000.png`.
+    - `Clic droit` sur l'art -> `Scale layer` -> Width: 1100 -> `Scale`.
+    - Avec l'outil `move tool` déplacer l'art pour qu'elle soit centrée.
+    - Clic sur `File` -> `Export as...` -> exporter dans le dossier dans `filled-mockups` qui a le nombre de l'art comme nom (dans notre example: `000`), et appelle le `a.png` (comme le nom du mockup de base).
+    - Fait de même pour les autres mockups (de `a.png` à `f.png`), voici les dimensions que tu dois mettre lorsque tu fais `Clic droit` sur l'art importé -> `Scale layer` comme précédemment:
+    `a.png`: Width: 1100
+    `b.png`: Width: 650
+    `c.png`: Width: 1000
+    `d.png`: Width: 800
+    `e.png`: Width: 820
+    `f.png`: Width: 900
+    - Réitère pou chaque art.
+
+3. **Applique le watermark**
+    - Éxécute ceci: `python3 watermark.py`.
+
+4. **Crée les fichiers finaux pour les clients**
+    - Éxécute ceci: `python3 scaler.py`.
+
+5. **Met à jour le repository GitHub**
+    - Depuis ton terminal éxécute `git add .`, puis `git commit -m "wip: arts"`, puis `git push`.
+
+6. **Donne accès aux fichiers finaux avec Google Drive**
+    - Ouvre ton navigateur et va [ici](https://drive.google.com/drive/folders/1oDoOEjw5nxofDgovINPy6_TfF2lNLuYr).
+    - Va dans `packed` et supprime tout.
+    - Drag and drop tous les dossiers qui sont présents dans `packed` dans ton ordi, dans `packed` sur Google Drive.
+    - Va [ici](https://script.google.com/home/projects/1V3AETZRo3WM-g3F79eNMSf9k1WG_soUgJGKfwsrwqrlam10kmaV3yuHD/edit) et clique sur le bouton `Run` en haut, puis attends que `Execution completed` soit affiché en bas.
+
+7. **Publie en tant que draft sur Etsy (x fois le nombre de art que tu veux trâiter)**
     - Connecte-toi à [Etsy](https://www.etsy.com)
     - Navigue vers ton gestionnaire de boutique
     - Va dans la section `Listings`
@@ -74,22 +46,28 @@ It:
     - Sélectionne `Digital files`
     - `I did`
     - `A finished product`
-    - `Made To Order`
+    - `2020 - 2024`
     - Copie le titre depuis [ici](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
-    - Ajoute tous les mockups du produit
-    - Ajoute aussi `watermark.png`, `ratios.png` et `support.png`
-    Comme ceci :
+    - Ajoute tous les mockups du produit qui sont dans `filled-mockups` puis `000` (toujours le même example), il y a donc normalement 6 fichiers: `a.png`, `b.png`, `c.png`, `d.png`, `e.png` et `f.png`.
+    - Ajoute aussi `ratios.png` et `support.png`, tous 2 situés dans `assets`.
+    - Ajoute aussi `000.png`, situé dans `watermarked`.
+    Comme ceci:
     ![Images](./README-ASSETS/pics.png)
-    - L'ordre : 1er, le mockup avec la plus grande peinture, tous les autres mockups, les ratios, le support et le filigrane
+    - L'ordre: 1er, le mockup avec _le plus grand cadre_ -> _tous les autres mockups_ -> _les ratios_ -> _le support_ puis le _watermarked_.
     - Copie aussi la description depuis [ici](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
-    - Prix : 10
-    - Quantité : 100
-    - Catégorie : Impressions numériques
+    - Prix: 10
+    - Quantité: 100
+    - Catégorie: Impressions numériques
     - Choisis les 2 couleurs en fonction de la peinture
-    - Largeur : 90
-    - Hauteur : 60
+    - Largeur: 60
+    - Hauteur: 90
     - Les deux en centimètres
-    - Orientation : Verticale
-    - Tags : huile, peinture, vintage, fleur, floraison, art, numérique, impression, {la_couleur_de_la_fleur}, nature, vieux, mur, maison
-    - Matériaux : numérique
+    - Orientation: Verticale
+    - Tags: huile, peinture, vintage, fleur, floraison, art, numérique, impression, {la_couleur_de_la_fleur}, nature, vieux, mur, maison
+    - Matériaux: numérique
     - Clique sur `Save as draft`
+    - Réitère pour chaque art.
+
+8. **Note quelque part le numéro du dernier art que tu as traîté, afin de t'y retrouver la fois d'après**
+
+Note: contacte si tu as quelconque questionnement ou problème 🖖🖖
