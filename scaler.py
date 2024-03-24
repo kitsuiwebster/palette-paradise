@@ -5,7 +5,7 @@ from PIL import Image
 def resize_image(image_path, output_size):
     print(f"👉 Resizing image: {os.path.basename(image_path)} to {output_size[0]}x{output_size[1]}")
     with Image.open(image_path) as img:
-        resized_img = img.resize(output_size, Image.ANTIALIAS)
+        resized_img = img.resize(output_size, Image.LANCZOS)
     return resized_img
 
 def process_images_in_directory(raw_directory="./raw", packed_directory="./packed"):
