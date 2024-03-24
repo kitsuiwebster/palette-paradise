@@ -50,10 +50,11 @@
     - Copie le titre depuis [ici](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
     - Ajoute tous les mockups du produit qui sont dans `filled-mockups` puis `000` (toujours le même example), il y a donc normalement 6 fichiers: `a.png`, `b.png`, `c.png`, `d.png`, `e.png` et `f.png`.
     - Ajoute aussi `ratios.png` et `support.png`, tous 2 situés dans `assets`.
-    - Ajoute aussi `000.png`, situé dans `watermarked`.
-    Comme ceci:
-    ![Images](./README-ASSETS/pics.png)
+    - Ajoute aussi `000.png`, situé dans `watermarked`, comme ceci:
+    ![Images](./readme/pics.png)
     - L'ordre: 1er, le mockup avec _le plus grand cadre_ -> _tous les autres mockups_ -> _les ratios_ -> _le support_ puis le _watermarked_.
+    - Centre la miniature en l'ajustant, comme ceci:
+    ![Images](./readme/thumbnail.png)
     - Copie aussi la description depuis [ici](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
     - Prix: 10
     - Quantité: 100
@@ -63,10 +64,11 @@
     - Hauteur: 90
     - Les deux en centimètres
     - Orientation: Verticale
-    - Tags: huile, peinture, vintage, fleur, floraison, art, numérique, impression, {la_couleur_de_la_fleur}, nature, vieux, mur, maison
-    - Matériaux: numérique
+    - Tags: oil, painting, vintage, flower, bloom, art, digital, print, {la couleur de la fleur}, nature, old, wall, home
+    - Matériaux: digital
+    - Section: Blooming Flower Portrait
     - Clique sur `Save as draft`
-    - Réitère pour chaque art.
+    - Réitère pour chaque art
 
 8. **Note quelque part le numéro du dernier art que tu as traîté, afin de t'y retrouver la fois d'après**
 
