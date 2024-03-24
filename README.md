@@ -72,4 +72,4 @@
 
 8. **Note quelque part le numéro du dernier art que tu as traîté, afin de t'y retrouver la fois d'après**
 
-Note: contacte-moi si tu as quelconque questionnement ou problème 🖖🖖🖖🖖
+Note: contacte-moi si tu as quelconque questionnement ou problème 🖖🖖🖖
