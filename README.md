@@ -2,7 +2,7 @@
 
 ## To Koni, in french
 
-1. **Accès au workspace**
+1. **Accède au workspace**
     - Assures-toi d'être situé la où tu as la meilleure connexion possible.
     - Dans ton répertoire personnel, ouvre le dossier nommé `palette-paradise`.
     - Ouvre un terminal avec `Cmd+Space`.
