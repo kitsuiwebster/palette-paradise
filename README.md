@@ -61,7 +61,7 @@
     - Copie aussi la description depuis la [Spreadsheet](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
     - Prix: 10
     - Quantité: 100
-    - Catégorie: Impressions numériques
+    - Catégorie: Digital Prints
     - Choisis les 2 couleurs en fonction de la peinture
     - Largeur: 60
     - Hauteur: 90
