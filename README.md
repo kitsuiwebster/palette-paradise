@@ -33,7 +33,7 @@
     - Éxécute ceci: `python3 scaler.py`.
 
 5. **Met à jour le repository GitHub**
-    - Depuis ton terminal éxécute `git add .`, puis `git commit -m "wip: arts"`, puis `git push`. Ici tu entres ton username `konivcg` et le mot de passe (PAT).
+    - Depuis ton terminal éxécute `git add .`, puis `git commit -m "wip: arts"`, puis `git push`. Ici tu entres ton username `konivcg` et le mot de passe (PAT). Cela peut prendre un certain temps, selon le nombre d'image traîtées dans ta session, ni faible connexion.
 
 6. **Donne accès aux fichiers finaux avec Google Drive**
     - Ouvre ton navigateur et va [ici](https://drive.google.com/drive/folders/1oDoOEjw5nxofDgovINPy6_TfF2lNLuYr).
