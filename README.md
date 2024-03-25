@@ -36,7 +36,7 @@
     - Depuis ton terminal éxécute `git add .`, puis `git commit -m "wip: arts"`, puis `git push`. Ici tu entres ton username `konivcg` et le mot de passe (PAT). Cela peut prendre un certain temps, selon le nombre d'image traîtées dans ta session, si faible connexion.
 
 6. **Donne accès aux fichiers finaux avec Google Drive**
-    - Ouvre ton navigateur et va [ici](https://drive.google.com/drive/folders/1oDoOEjw5nxofDgovINPy6_TfF2lNLuYr).
+    - Ouvre ton navigateur et accède à la [Spreadsheet](https://drive.google.com/drive/folders/1oDoOEjw5nxofDgovINPy6_TfF2lNLuYr).
     - Va dans `packed` et supprime tout.
     - Drag and drop tous les dossiers qui sont présents dans `packed` dans ton ordi, dans `packed` sur Google Drive.
     - Va [ici](https://script.google.com/home/projects/1V3AETZRo3WM-g3F79eNMSf9k1WG_soUgJGKfwsrwqrlam10kmaV3yuHD/edit) et clique sur le bouton `Run` en haut, puis attends que `Execution completed` soit affiché en bas.
@@ -50,7 +50,7 @@
     - `I did`
     - `A finished product`
     - `2020 - 2024`
-    - Copie le titre depuis [ici](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
+    - Copie le titre depuis la [Spreadsheet](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
     - Ajoute tous les mockups du produit qui sont dans `filled-mockups` puis `000` (toujours le même example), il y a donc normalement 6 fichiers: `a.png`, `b.png`, `c.png`, `d.png`, `e.png` et `f.png`.
     - Ajoute aussi `ratios.png` et `support.png`, tous 2 situés dans `assets`.
     - Ajoute aussi `000.png`, situé dans `watermarked`, comme ceci:
@@ -58,7 +58,7 @@
     - L'ordre: 1er, le mockup avec _le plus grand cadre_ -> _tous les autres mockups_ -> _les ratios_ -> _le support_ puis le _watermarked_.
     - Centre la miniature en l'ajustant, comme ceci:
     ![Images](./readme/thumbnail.png)
-    - Copie aussi la description depuis [ici](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
+    - Copie aussi la description depuis la [Spreadsheet](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
     - Prix: 10
     - Quantité: 100
     - Catégorie: Impressions numériques
@@ -74,6 +74,6 @@
     - Réitère pour chaque art
 
 8. **Tiens à jour où on est est**
-    - Rends-toi [ici](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=1292170829) et dans l'onglet `current` (les onglets se situent en bas), met à jour le nombre. Le nombre affiché, doit être celui correspondant au numéro du dernier produit traîté, et donc mis en ligne en tant que brouillon.
+    - Rends-toi sur la [Spreadsheet](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=1292170829) et dans l'onglet `current` (les onglets se situent en bas), met à jour le nombre. Le nombre affiché, doit être celui correspondant au numéro du dernier produit traîté, et donc mis en ligne en tant que brouillon.
 
 Note: contacte-moi si tu as quelconque questionnement ou problème 🖖🖖
