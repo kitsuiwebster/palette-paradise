@@ -2,6 +2,8 @@
 
 ## To Koni, in french
 
+- Règle importante: si tu commences à traîter une image, finis.
+
 1. **Accède au workspace**
     - Assures-toi d'être situé la où tu as la meilleure connexion possible.
     - Dans ton répertoire personnel, ouvre le dossier nommé `palette-paradise`.
@@ -39,7 +41,7 @@
     - Drag and drop tous les dossiers qui sont présents dans `packed` dans ton ordi, dans `packed` sur Google Drive.
     - Va [ici](https://script.google.com/home/projects/1V3AETZRo3WM-g3F79eNMSf9k1WG_soUgJGKfwsrwqrlam10kmaV3yuHD/edit) et clique sur le bouton `Run` en haut, puis attends que `Execution completed` soit affiché en bas.
 
-7. **Publie en tant que draft sur Etsy (x fois le nombre de art que tu veux trâiter)**
+7. **Publie en tant que brouillon sur Etsy (x fois le nombre de art que tu veux trâiter)**
     - Connecte-toi à [Etsy](https://www.etsy.com)
     - Navigue vers ton gestionnaire de boutique
     - Va dans la section `Listings`
@@ -71,6 +73,7 @@
     - Clique sur `Save as draft`
     - Réitère pour chaque art
 
-8. **Note quelque part le numéro du dernier art que tu as traîté, afin de t'y retrouver la fois d'après**
+8. **Tiens à jour où on est est**
+    - Rends-toi [ici](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=1292170829) et dans l'onglet `current` (les onglets se situent en bas), met à jour le nombre. Le nombre affiché, doit être celui correspondant au numéro du dernier produit traîté, et donc mis en ligne en tant que brouillon.
 
 Note: contacte-moi si tu as quelconque questionnement ou problème 🖖🖖
