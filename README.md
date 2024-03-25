@@ -58,6 +58,7 @@
     - L'ordre: 1er, le mockup avec _le plus grand cadre_ -> _tous les autres mockups_ -> _les ratios_ -> _le support_ puis le _watermarked_.
     - Centre la miniature en l'ajustant, comme ceci:
     ![Images](./readme/thumbnail.png)
+    - Digital Files: Upload les 5 fichiers finaux situés dans `packed` puis `000` (toujours le même example).
     - Copie aussi la description depuis la [Spreadsheet](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=0)
     - Prix: 10
     - Quantité: 100
