@@ -9,7 +9,7 @@
     - Dans ton répertoire personnel, ouvre le dossier nommé `palette-paradise`.
     - Ouvre un terminal avec `Cmd+Space`.
     - Éxécute `cd ~/palette-paradise`.
-    - Éxécute `git pull`.
+    - Éxécute `git pull`. Cela peut prendre un certain temps, selon le nombre d'image tajoutées dans `raw`, si faible connexion.
 
 2. **Crée les mockups avec Gimp (x fois le nombre de art que tu veux traîter)**
     - Drag and drop le mockup `a.png` (situé dans `empty-mockups`) dans Gimp.
