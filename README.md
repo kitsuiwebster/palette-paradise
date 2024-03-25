@@ -39,7 +39,7 @@
     - Ouvre ton navigateur et accède à la [Spreadsheet](https://drive.google.com/drive/folders/1oDoOEjw5nxofDgovINPy6_TfF2lNLuYr).
     - Va dans `packed` et supprime tout.
     - Drag and drop tous les dossiers qui sont présents dans `packed` dans ton ordi, dans `packed` sur Google Drive.
-    - Va [ici](https://script.google.com/home/projects/1V3AETZRo3WM-g3F79eNMSf9k1WG_soUgJGKfwsrwqrlam10kmaV3yuHD/edit) et clique sur le bouton `Run` en haut, puis attends que `Execution completed` soit affiché en bas.
+    - Rends-toi sur [Google Apps Script](https://script.google.com/home/projects/1V3AETZRo3WM-g3F79eNMSf9k1WG_soUgJGKfwsrwqrlam10kmaV3yuHD/edit) et clique sur le bouton `Run` en haut, puis attends que `Execution completed` soit affiché en bas.
 
 7. **Publie en tant que brouillon sur Etsy (x fois le nombre de art que tu veux trâiter)**
     - Connecte-toi à [Etsy](https://www.etsy.com)
