@@ -12,6 +12,7 @@
     - Éxécute `git pull`. Cela peut prendre un certain temps, selon le nombre d'image tajoutées dans `raw`, si faible connexion.
 
 2. **Crée les mockups avec Gimp (x fois le nombre de art que tu veux traîter)**
+    - Rends-toi sur la [Spreadsheet](https://docs.google.com/spreadsheets/d/19dRz6FGXgXrKYPCkff_JlIWvXSlYTGwhcw0zfCBOgq4/edit#gid=1292170829) dans l'onglet `current` (les onglets se situent en bas) et check, par le numéro, quel art a été publiée en dernier sur Etsy afin de commencer à traîter le numéro suivant.
     - Drag and drop le mockup `a.png` (situé dans `empty-mockups`) dans Gimp.
     - Drag and drop l'art qui se situe dans `raw` dans les calques en bas à droite (assures-toi que l'art est en dessous du mockup). Comme example on va prendre `000.png`.
     - `Clic droit` sur l'art -> `Scale layer` -> Width: 1100 -> `Scale`.
