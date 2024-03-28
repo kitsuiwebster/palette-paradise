@@ -37,7 +37,7 @@
     - Depuis ton terminal éxécute `git add .`, puis `git commit -m "wip: arts"`, puis `git push`. Ici tu entres ton username `konivcg` et le mot de passe (PAT). Cela peut prendre un certain temps, selon le nombre d'image traîtées dans ta session, si faible connexion.
 
 6. **Donne accès aux fichiers finaux avec Google Drive**
-    - Ouvre ton navigateur et accède à la [Spreadsheet](https://drive.google.com/drive/folders/1oDoOEjw5nxofDgovINPy6_TfF2lNLuYr).
+    - Ouvre ton navigateur et accède à [Google Drive](https://drive.google.com/drive/folders/1oDoOEjw5nxofDgovINPy6_TfF2lNLuYr).
     - Va dans `packed` et supprime tout.
     - Drag and drop tous les dossiers qui sont présents dans `packed` dans ton ordi, dans `packed` sur Google Drive.
     - Rends-toi sur [Google Apps Script](https://script.google.com/home/projects/1V3AETZRo3WM-g3F79eNMSf9k1WG_soUgJGKfwsrwqrlam10kmaV3yuHD/edit) et clique sur le bouton `Run` en haut, puis attends que `Execution completed` soit affiché en bas.
